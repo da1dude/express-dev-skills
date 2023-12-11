@@ -3,7 +3,7 @@
     <ul>
         <% skills.forEach(function(t) { %>
         <li>
-            <%= t.skill %>
+            <a href="/skills/<%= t.id %>"><%= t.skill %></a>
             - 
             <%= t.done ? 'have' : 'dont have' %>
         </li>
