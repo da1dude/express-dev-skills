@@ -1,7 +1,7 @@
 const skills = [
-    {id: 125223, skill: 'Drinking Water Fast', done: true},
-    {id: 127904, skill: 'Run Very Slow', done: false},
-    {id: 139608, skill: 'Cant Jump', done: false}
+    {id: 125223, skill: 'Drinking Water Fast', has: true},
+    {id: 127904, skill: 'Run Very Slow', has: false},
+    {id: 139608, skill: 'Cant Jump', has: false}
 ];
 
 module.exports = {

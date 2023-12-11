@@ -3,9 +3,9 @@
     <ul>
         <% skills.forEach(function(t) { %>
         <li>
-            <%= t.todo %>
+            <%= t.skill %>
             - 
-            <%= t.done ? 'done' : 'not done' %>
+            <%= t.done ? 'have' : 'dont have' %>
         </li>
         <% }); %>
     </ul>
